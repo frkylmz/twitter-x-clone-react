@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-black text-white;
+}
+
+/*
+ genişlik: 1265 px 
+  sol sidebar: 275 px
+  sağ sidebar: 350 px
+  content: auto
+*/
