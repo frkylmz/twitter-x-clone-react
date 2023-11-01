@@ -1,9 +1,14 @@
 import { createBrowserRouter } from "react-router-dom";
+import MainLayout from "~/layouts/main";
 import Home from "~/pages/home";
 import Explore from "~/pages/explore";
 import Notifications from "~/pages/notifications";
+import Messages from "~/pages/messages";
+import Lists from "~/pages/lists";
+import Bookmarks from "~/pages/bookmarks";
+import Communities from "~/pages/communities";
+import Profile from "~/pages/profile";
 import NotFound from "~/pages/not-found";
-import MainLayout from "~/layouts/main";
 
 const routes = createBrowserRouter([
   {
@@ -21,6 +26,26 @@ const routes = createBrowserRouter([
       {
         path: "notifications",
         element: <Notifications />,
+      },
+      {
+        path: "messages",
+        element: <Messages />,
+      },
+      {
+        path: "lists",
+        element: <Lists />,
+      },
+      {
+        path: "bookmarks",
+        element: <Bookmarks />,
+      },
+      {
+        path: "communities",
+        element: <Communities />,
+      },
+      {
+        path: ":slug",
+        element: <Profile />,
       },
       {
         path: "*",
