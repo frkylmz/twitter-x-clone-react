@@ -211,3 +211,81 @@ export const mainMenu = [
     },
   },
 ];
+
+export const topics = [
+  {
+    title: "Trending in Turkey",
+    topic: {
+      type: "tag",
+      value: "Apple",
+    },
+  },
+  {
+    title: "Trending in Turkey",
+    topic: {
+      type: "query",
+      value: "Starlink",
+    },
+    postCount: 12345,
+  },
+  {
+    title: "Trending in Turkey",
+    topic: {
+      type: "tag",
+      value: "Apple",
+    },
+  },
+  {
+    title: "Trending in Turkey",
+    topic: {
+      type: "query",
+      value: "Starlink",
+    },
+    postCount: 12345,
+  },
+  {
+    title: "Trending in Turkey",
+    topic: {
+      type: "tag",
+      value: "Apple",
+    },
+  },
+  {
+    title: "Trending in Turkey",
+    topic: {
+      type: "query",
+      value: "Starlink",
+    },
+    postCount: 12345,
+  },
+  {
+    title: "Trending in Turkey",
+    topic: {
+      type: "tag",
+      value: "Apple",
+    },
+  },
+  {
+    title: "Trending in Turkey",
+    topic: {
+      type: "query",
+      value: "Starlink",
+    },
+    postCount: 12345,
+  },
+  {
+    title: "Trending in Turkey",
+    topic: {
+      type: "tag",
+      value: "Apple",
+    },
+  },
+  {
+    title: "Trending in Turkey",
+    topic: {
+      type: "query",
+      value: "Starlink",
+    },
+    postCount: 12345,
+  },
+];
