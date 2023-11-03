@@ -74,7 +74,7 @@ export default function Footer() {
           </Popover.Panel>
         </Popover>
         <p className="text-[#71767b] leading-4 text-[13px]">
-          &copy; 2023 X Corp. based /w PROTOTURK
+          &copy; 2023 X Corp. based on PROTOTURK
         </p>
       </div>
     </footer>
