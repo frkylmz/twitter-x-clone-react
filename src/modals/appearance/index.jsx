@@ -1,3 +1,7 @@
 export default function AppearanceModal() {
-  return <div>Görünümü özelleştir</div>;
+  return (
+    <div>
+      <h3>Customize your view</h3>
+    </div>
+  );
 }
