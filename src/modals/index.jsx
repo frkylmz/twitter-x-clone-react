@@ -7,7 +7,9 @@ export default function Modal() {
 
   return (
     <div className="fixed inset-0 bg-[#5b7083]/40 flex items-center justify-center z-20">
-      <div className="bg-black">{currentModal && <currentModal.element />}</div>
+      <div className="bg-black max-w-[600px] max-h-[90vh] overflow-auto rounded-2xl">
+        {currentModal && <currentModal.element />}
+      </div>
     </div>
   );
 }
