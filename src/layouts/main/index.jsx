@@ -24,6 +24,10 @@ export default function MainLayout() {
       "--background-third",
       appearance.backgroundColor.third
     );
+    document.documentElement.style.setProperty(
+      "--background-modal",
+      appearance.backgroundColor.modal
+    );
 
     // Font Colors
     document.documentElement.style.setProperty(
@@ -41,6 +45,11 @@ export default function MainLayout() {
     document.documentElement.style.setProperty(
       "--color-base-secondary",
       appearance.color.baseSecondary
+    );
+
+    document.documentElement.style.setProperty(
+      "--box-shadow",
+      appearance.boxShadow
     );
 
     // Font Size
