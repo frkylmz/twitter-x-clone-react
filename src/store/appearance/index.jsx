@@ -58,14 +58,14 @@ const initialState = {
 // };
 
 const appearance = createSlice({
-  name: "modappearanceal",
+  name: "appearance",
   initialState,
   reducers: {
     _setBackgroundColor: (state, action) => {
       state.backgroundColor = action.payload;
     },
-    _setColor: (state) => {
-      state.color = false;
+    _setColor: (state, action) => {
+      state.color = action.payload;
     },
     _setFontSize: (state, action) => {
       state.fontSize = action.payload;
