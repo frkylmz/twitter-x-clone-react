@@ -4,7 +4,7 @@ import Button from "~/components/button";
 export default function UserCard({ user }) {
   const [following, setFollowing] = useState(false);
   return (
-    <button className="py-3 px-4 flex gap-3 transition-colors hover:bg-white/[0.03]">
+    <button className="py-3 px-4 flex gap-3 transition-colors hover:bg-[color-var:(--background-third)]">
       <img
         src={user.avatar}
         className="w-10 h-10 rounded-full object-cover"
