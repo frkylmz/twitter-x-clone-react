@@ -3,40 +3,40 @@ import { Popover } from "@headlessui/react";
 
 export default function Footer() {
   return (
-    <footer className="mb-4 px-4 flex flex-wrap gap-2">
+    <footer className="mb-4 px-4 flex flex-wrap gap-2 text-[0.813rem]">
       <Link
         to="/"
-        className="text-[color:var(--color-base-secondary)] leading-4 text-[13px] hover:underline">
+        className="text-[color:var(--color-base-secondary)] leading-4 hover:underline">
         Terms of Service
       </Link>
       <Link
         to="/"
-        className="text-[color:var(--color-base-secondary)] leading-4 text-[13px] hover:underline">
+        className="text-[color:var(--color-base-secondary)] leading-4 hover:underline">
         Privacy Policy
       </Link>
       <Link
         to="/"
-        className="text-[color:var(--color-base-secondary)] leading-4 text-[13px] hover:underline">
+        className="text-[color:var(--color-base-secondary)] leading-4 hover:underline">
         Cookie Policy
       </Link>
       <Link
         to="/"
-        className="text-[color:var(--color-base-secondary)] leading-4 text-[13px] hover:underline">
+        className="text-[color:var(--color-base-secondary)] leading-4 hover:underline">
         Imprint
       </Link>
       <Link
         to="/"
-        className="text-[color:var(--color-base-secondary)] leading-4 text-[13px] hover:underline">
+        className="text-[color:var(--color-base-secondary)] leading-4 hover:underline">
         Accessibility
       </Link>
       <Link
         to="/"
-        className="text-[color:var(--color-base-secondary)] leading-4 text-[13px] hover:underline">
+        className="text-[color:var(--color-base-secondary)] leading-4 hover:underline">
         Ads info
       </Link>
-      <div className="w-full flex gap-2">
+      <div className="inline-flex gap-2 flex-wrap">
         <Popover className="relative leading-4 inline-flex">
-          <Popover.Button className="text-[color:var(--color-base-secondary)] outline-none leading-4 text-[13px] hover:underline inline-flex items-center">
+          <Popover.Button className="text-[color:var(--color-base-secondary)] outline-none leading-4 hover:underline inline-flex items-center">
             More
             <svg viewBox="0 0 24 24" className="h-[1em] px-0.5">
               <path
@@ -45,35 +45,35 @@ export default function Footer() {
               />
             </svg>
           </Popover.Button>
-          <Popover.Panel className="w-[176px] max-w-[384px] bg-[color:var(--background-primary)] shadow-box rounded-xl absolute bottom-0 right-0 grid overflow-hidden">
+          <Popover.Panel className="w-[9.375rem] max-w-[24rem] bg-[color:var(--background-primary)] shadow-box rounded-xl absolute bottom-0 right-0 grid overflow-hidden">
             <Link
               to="/"
-              className="py-4 px-4 text-[15px] leading-5 font-bold hover:bg-[color:var(--background-secondary)] transition-colors">
+              className="py-4 px-4 leading-5 font-bold hover:bg-[color:var(--background-secondary)] transition-colors">
               About
             </Link>
             <Link
               to="/"
-              className="py-4 px-4 text-[15px] leading-5 font-bold hover:bg-[color:var(--background-secondary)] transition-colors">
+              className="py-4 px-4 leading-5 font-bold hover:bg-[color:var(--background-secondary)] transition-colors">
               Download the X app
             </Link>
             <Link
               to="/"
-              className="py-4 px-4 text-[15px] leading-5 font-bold hover:bg-[color:var(--background-secondary)] transition-colors">
+              className="py-4 px-4 leading-5 font-bold hover:bg-[color:var(--background-secondary)] transition-colors">
               Status
             </Link>
             <Link
               to="/"
-              className="py-4 px-4 text-[15px] leading-5 font-bold hover:bg-[color:var(--background-secondary)] transition-colors">
+              className="py-4 px-4 leading-5 font-bold hover:bg-[color:var(--background-secondary)] transition-colors">
               X for Business
             </Link>
             <Link
               to="/"
-              className="py-4 px-4 text-[15px] leading-5 font-bold hover:bg-[color:var(--background-secondary)] transition-colors">
+              className="py-4 px-4 leading-5 font-bold hover:bg-[color:var(--background-secondary)] transition-colors">
               Developers
             </Link>
           </Popover.Panel>
         </Popover>
-        <p className="text-[color:var(--color-base-secondary)] leading-4 text-[13px]">
+        <p className="text-[color:var(--color-base-secondary)] leading-4">
           &copy; 2023 X Corp. based on PROTOTURK
         </p>
       </div>
