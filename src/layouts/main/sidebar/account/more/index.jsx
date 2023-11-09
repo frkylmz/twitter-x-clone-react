@@ -49,9 +49,7 @@ export default function More({ close }) {
       </button>
 
       <button className="py-3 px-4 text-left transition-colors hover:bg-[color:var(--background-secondary)] w-full font-bold leading-[1.25rem]">
-        <div className="max-w-[228px]">
-          @{currentAccount.userName} hesabından çıkış yap
-        </div>
+        <div className="max-w-[228px]">Log out @{currentAccount.userName}</div>
       </button>
     </div>
   );

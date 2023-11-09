@@ -4,6 +4,7 @@ const initialState = {
   backgroundColor: {
     name: "lightsOut",
     primary: "#000000",
+    primaryAlpha: "#000000a6",
     secondary: "#16181c",
     third: "#212327",
     modal: "#5b708366",
