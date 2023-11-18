@@ -17,6 +17,28 @@ export const posts = [
       repost: 2,
       like: 3,
       view: 4,
+      bookmark: 5,
+    },
+  },
+  {
+    id: "1724851514391318838",
+    content: `Bing Chat is now Copilot and works on Microsoft Edge, Google Chrome, Safari and soon on mobile.`,
+    photos: [
+      "https://pbs.twimg.com/media/F-g0r0ZWcAAGBOc?format=jpg&name=small",
+    ],
+    account: {
+      avatar:
+        "https://pbs.twimg.com/profile_images/1701324249624150016/tcox7Ax3_bigger.jpg",
+      userName: "Microsoft",
+      fullName: "Microsoft",
+      verified: true,
+    },
+    stats: {
+      comments: 1,
+      repost: 2,
+      like: 3,
+      view: 4,
+      bookmark: 5,
     },
   },
 ];
