@@ -32,6 +32,7 @@ export default function UserCard({ user }) {
           <Button
             variant="white"
             size="small"
+            className="whitespace-nowrap group"
             onClick={() => setFollowing(true)}>
             Follow
           </Button>

@@ -1,5 +1,5 @@
-import { posts } from "~/mock/posts";
 import Post from "~/components/post";
+import { posts } from "~/mock/post";
 
 export default function ForYou() {
   return (
