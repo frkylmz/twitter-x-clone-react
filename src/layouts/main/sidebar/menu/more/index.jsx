@@ -50,7 +50,7 @@ export default function More() {
         <Disclosure>
           {({ open }) => (
             <>
-              <Disclosure.Button className="flex items-center justify-between w-full px-4 font-bold hover:bg-[color:var(--background-secondary)] transition-colors">
+              <Disclosure.Button className="flex items-center justify-between w-full p-4 font-bold hover:bg-[color:var(--background-secondary)] transition-colors">
                 Creator Studio
                 <svg
                   className={classNames("h-[1.172rem]", {
