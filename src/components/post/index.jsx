@@ -1,5 +1,6 @@
 import { numberFormat } from "~/utils/formats";
 import Photo from "./photo";
+import Poll from "./poll";
 
 export default function Post({ post }) {
   return (
@@ -38,6 +39,7 @@ export default function Post({ post }) {
           />
 
           {post.type == "photo" && <Photo photos={post.photos} />}
+          {post.type == "poll" && <Poll poll={post.poll} />}
 
           <div className="flex -ml-1.5 mt-1.5">
             <div className="flex-1 group flex items-center gap-px">

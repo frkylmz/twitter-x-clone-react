@@ -1,6 +1,45 @@
 export const posts = [
   {
     id: "1722685078210236569",
+    type: "poll",
+    content: `Twitter'ın şu anki halinden memnun musunuz?`,
+    poll: {
+      voted: false,
+      votes: 35,
+      answers: [
+        {
+          id: 1,
+          text: "Evet",
+          votes: 20,
+        },
+        {
+          id: 2,
+          text: "Hayır",
+          votes: 10,
+        },
+        {
+          id: 3,
+          text: "Kararsızım",
+          votes: 5,
+        },
+      ],
+    },
+    account: {
+      avatar:
+        "https://pbs.twimg.com/profile_images/1662936940692357121/lnVQG0Kq_400x400.jpg",
+      userName: "frkylmz420",
+      fullName: "Faruk Yılmaz",
+    },
+    stats: {
+      comments: 289,
+      repost: 3471,
+      like: 16220,
+      view: 195000,
+      bookmark: 5,
+    },
+  },
+  {
+    id: "1722685078210236569",
     type: "photo",
     content: `🗣️ you asked, we listened: chat is now available on desktop 🖥️ for live broadcasts`,
     photos: [
