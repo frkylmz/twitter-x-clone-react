@@ -15,7 +15,7 @@ export default function Button({
     {
       type: "button",
       className: classNames(
-        "rounded-full flex items-center justify-center font-bold  transition-all",
+        "rounded-full flex items-center justify-center font-bold transition-all",
         {
           "px-4 h-8 text-sm": size == "small",
           "px-4 h-9": size == "normal",

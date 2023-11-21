@@ -38,24 +38,25 @@ const initialState = {
   fontSize: 16,
   */
 
-// DEFAULT
-//   backgroundColor: {
-//     name: "default",
-//     primary: "#fff",
-//     secondary: "#f7f9f9",
-//     third: "#eff3f4",
-//     modal: "#00000066",
-//   },
-//   color: {
-//     primary: "#1d9bf0",
-//     secondary: "#8ecdf8",
-//     base: "#0f1419",
-//     baseSecondary: "#536471",
-//   },
-//   boxShadow:
-//     "rgba(101,119,134,0.2) 0px 0px 15px, rgba(101,119,134,0.15) 0px 0px 3px 1px",
-//   fontSize: 16,
-// };
+/* DEFAULT
+  backgroundColor: {
+    name: "default",
+    primary: "#fff",
+    secondary: "#f7f9f9",
+    third: "#eff3f4",
+    modal: "#00000066",
+  },
+  color: {
+    primary: "#1d9bf0",
+    secondary: "#8ecdf8",
+    base: "#0f1419",
+    baseSecondary: "#536471",
+  },
+  boxShadow:
+    "rgba(101,119,134,0.2) 0px 0px 15px, rgba(101,119,134,0.15) 0px 0px 3px 1px",
+  fontSize: 16,
+};
+*/
 
 const appearance = createSlice({
   name: "appearance",

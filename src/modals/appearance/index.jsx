@@ -56,7 +56,7 @@ export default function AppearanceModal({ close }) {
                     />
                   </svg>
                   <div className="ml-1 flex items-center text-[color:var(--color-base-secondary)]">
-                    @X • 35m
+                    @X · 35m
                   </div>
                 </div>
               </header>
@@ -64,7 +64,7 @@ export default function AppearanceModal({ close }) {
                 At the heart of X are short messages called posts -- just like
                 this one -- which can include photos, videos, links, text,
                 hashtags and mentions like{" "}
-                <Link className="text-[#1d9bf0]" to="/x">
+                <Link className="text-[#1d9bf0] hover:underline" to="/x">
                   {" "}
                   @X
                 </Link>{" "}
@@ -79,13 +79,13 @@ export default function AppearanceModal({ close }) {
             <h6 className="text-[color:var(--color-base-secondary)] mb-1 leading-5 text-[13px] font-bold">
               Font Size
             </h6>
-            <div className="bg-[color:var(--background-secondary)] p-4 mb-3 rounded-2xl flex items-center gap-5">
+            <div className="bg-[color:var(--background-secondary)] p-4 rounded-2xl flex items-center gap-5">
               <div className="text-[0.813rem]">Aa</div>
               <div className="h-1 bg:[color:var(--color-secondary)] flex-1 rounded-full relative">
                 <div
                   style={{ width: fontSizePercent }}
                   className="absolute h-full top-0 left-0 rounded-full bg-[color:var(--color-primary)]"></div>
-                <div className="flex justify-between absolute w-[calc(100%+16px)] -top-3.5 left-[8px]">
+                <div className="flex justify-between absolute w-[calc(100%+16px)] -top-3.5 -left-[8px]">
                   {fontSizes.map((fs) => (
                     <button
                       type="button"
@@ -96,15 +96,15 @@ export default function AppearanceModal({ close }) {
                       className={classNames(
                         "before:absolute before:inset-0 before:rounded-full before:hover:bg-[color:var(--color-primary)] before:opacity-10 w-8 h-8 rounded-full flex items-center justify-center relative",
                         {
-                          "active-font-size": fs == fontSize,
+                          "active-font-size": fs === fontSize,
                         }
                       )}>
                       <div
                         className={classNames(
-                          "w-3 h-3 rounded-full bg-[volor:var(--color-secondary)]",
+                          "w-3 h-3 rounded-full bg-[color:var(--color-secondary)]",
                           {
-                            "w-4 h-4": fs == fontSize,
-                            "bg-[color:var(--color-primary)]": fs <= fontSize,
+                            "w-4 h-4": fs === fontSize,
+                            "!bg-[color:var(--color-primary)]": fs <= fontSize,
                           }
                         )}></div>
                     </button>
@@ -119,7 +119,7 @@ export default function AppearanceModal({ close }) {
             <h6 className="text-[color:var(--color-base-secondary)] mb-1 leading-5 text-[13px] font-bold">
               Color
             </h6>
-            <div className="bg-[color:var(--background-secondary)] py-2 mb-3 rounded-2xl flex justify-around items-center">
+            <div className="bg-[color:var(--background-secondary)] py-2 rounded-2xl flex justify-around items-center">
               {colors.map((c, index) => (
                 <button
                   key={index}
@@ -131,7 +131,7 @@ export default function AppearanceModal({ close }) {
                   }}
                   style={{ "--bg": c.primary }}
                   className="w-[40px] h-[40px] rounded-full bg-[color:var(--bg)] flex items-center justify-center text-white">
-                  {color.primary == c.primary && (
+                  {color.primary === c.primary && (
                     <svg viewBox="0 0 24 24" width={25}>
                       <path
                         fill="currentColor"
@@ -214,7 +214,7 @@ export default function AppearanceModal({ close }) {
                   );
                 }}
                 className={classNames(
-                  "h-[62px] pr-3 pl-2 bg-[#15202b] text-[#f7f9f9] border font-bold border-white/5 rounded group flex items-center gap-1.5",
+                  "h-[62px] pr-3 pl-2 bg-[#15202b] text-[#f7f9f9] border font-bold border-white/10 rounded group flex items-center gap-1.5",
                   {
                     "!border-[color:var(--color-primary)] !border-2":
                       backgroundColor.name == "dim",

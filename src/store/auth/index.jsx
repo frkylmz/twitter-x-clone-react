@@ -6,7 +6,7 @@ const initialState = {
     userName: "frkylmz420",
     fullName: "Faruk Yılmaz",
     avatar:
-      "https://pbs.twimg.com/profile_images/1662936940692357121/lnVQG0Kq_400x400.jpg",
+      "https://pbs.twimg.com/profile_images/1719705641151787008/oDsp8P0L_bigger.jpg",
   },
   accounts: [
     {
@@ -14,14 +14,14 @@ const initialState = {
       userName: "frkylmz420",
       fullName: "Faruk Yılmaz",
       avatar:
-        "https://pbs.twimg.com/profile_images/1662936940692357121/lnVQG0Kq_400x400.jpg",
+        "https://pbs.twimg.com/profile_images/1719705641151787008/oDsp8P0L_bigger.jpg",
     },
     {
       id: 2,
       userName: "farukyilmaz",
       fullName: "Faruk Yılmaz",
       avatar:
-        "https://pbs.twimg.com/profile_images/1719705512688721920/gwF8Na2E_400x400.jpg",
+        "https://pbs.twimg.com/profile_images/1497990787438718978/8ozBmkeZ_bigger.jpg",
     },
   ],
 };

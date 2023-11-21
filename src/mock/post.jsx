@@ -26,7 +26,7 @@ export const posts = [
     },
     account: {
       avatar:
-        "https://pbs.twimg.com/profile_images/1662936940692357121/lnVQG0Kq_400x400.jpg",
+        "https://pbs.twimg.com/profile_images/1719705641151787008/oDsp8P0L_bigger.jpg",
       userName: "frkylmz420",
       fullName: "Faruk Yılmaz",
     },
